@@ -1,7 +1,7 @@
 $("document").ready(function () {
     //Hides the questions and answers before game starts
     $(".qa").hide();
-    $("#content").hide();
+    $("#contentContainer").hide();
     var answersCorrect = 0;
     var answersIncorect = 0;
 
@@ -21,7 +21,7 @@ $("document").ready(function () {
     $("#start").on("click", function () {
         $("#start").hide();
         $(".qa").show();
-        $("#content").show();
+        $("#contentContainer").show();
         questionTimer();
     });
 
@@ -33,7 +33,6 @@ $("document").ready(function () {
         else if (userGuess !== 3){
             answersIncorect++;
         }
-        console.log(answersCorrect, answersIncorect);
     });
     $(".answers2").on("click", function(){
         var userGuess = ($(this).val());

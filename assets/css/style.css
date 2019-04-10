@@ -11,19 +11,16 @@ p{
     margin: 0;
 }
 
-.btn{
+.start{
     width: 6em;
     height: 3em;
 }
 
-/* button:active{
-    background-color: red;
-} */
 
 #content{
     background-color: #efefef;
     padding: 2em;
-    height: 55em;
+    height: 65em;
     width: 20em;
     margin: 1em;
     flex-direction: column;
