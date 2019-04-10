@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" class="css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <title>Trivia Game</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Guy Fieri's Trivia-Town</h1>
+      <p class="lead">A trivia game about America's favorite restaurateur</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-2" id="sidebar"></div>
+      <div class="col-8 d-flex justify-content-center" id="content">
+        <a class="btn btn-danger btn-lg" id="start">START</a>
+        <div id="timeLeft"></div>
+        <br>
+        <div id="question" class="qa">1. Guy Fieri got his first job in the food industry at what age?</div>
+        <div id="answers">
+          <button class="qa" value="1">16</button>
+          <button class="qa" value="2">8</button>
+          <button class="qa" value="3">10</button>
+          <button class="qa" value="4">16</button>
+        </div>
+        <br>
+        <div id="question2" class="qa">2. Guy Fieri's original name is: </div>
+        <div id="answers">
+          <button class="qa" value="1">Gordon Martin Fieri</button>
+          <button class="qa" value="2">Gerald Fernandez</button>
+          <button class="qa" value="3">Guy Martin Fieri</button>
+          <button class="qa" value="4">Guy Ramsey Ferry</button>
+        </div>
+        <br>
+        <div id="question3" class="qa">3. Guy attended culinary school at: ?</div>
+        <div id="answers">
+          <button class="qa" value="1">The Culinary Institute of America</button>
+          <button class="qa" value="2">International Culinary Center</button>
+          <button class="qa" value="3">Joliet Junior College</button>
+          <button class="qa" value="4">Guy didn't attend culinary school</button>
+        </div>
+        <br>
+        <div id="question4" class="qa">4. Guy is the owner of how many restaurants?</div>
+        <div id="answers">
+          <button class="qa" value="1">4</button>
+          <button class="qa" value="2">11</button>
+          <button class="qa" value="3">13</button>
+          <button class="qa" value="4">16</button>
+        </div>
+        <br>
+        <div id="question5" class="qa">5. Guy has a pet ______ </div>
+        <div id="answers">
+          <button class="qa" value="1">Donkey</button>
+          <button class="qa" value="2">Tortoise</button>
+          <button class="qa" value="3">Cheetah</button>
+          <button class="qa" value="4">Horse</button>
+        </div>
+        <br>
+        <div id="question6" class="qa">6. What is the name of Guy's winery?</div>
+        <div id="answers">
+          <button class="qa" value="1">Hunter-Ryde</button>
+          <button class="qa" value="2">Grape-Town</button>
+          <button class="qa" value="3">Fieri's Vineyard</button>
+          <button class="qa" value="4">None of the above</button>
+        </div>
+        <br>
+        <div id="question7" class="qa">7. 'Fieri' is Latin for: </div>
+        <div id="answers">
+          <button class="qa" value="1">Fire</button>
+          <button class="qa" value="2">To be Made</button>
+          <button class="qa" value="3">1968 Camaro</button>
+          <button class="qa" value="4">Jalapeno Poppers</button>
+        </div>
+        <br>
+        <div id="question8" class="qa">8. What is Guy Fieri's estimated net worth?</div>
+        <div id="answers">
+          <button class="qa" value="1">4.5 million</button>
+          <button class="qa" value="2">7.5 million</button>
+          <button class="qa" value="3">8.5 million</button>
+          <button class="qa" value="4">10.5 million</button>
+        </div>
+        <br>
+        <div id="question9" class="qa">9. Guy was once run over by a: </div>
+        <div id="answers">
+          <button class="qa" value="1">Car</button>
+          <button class="qa" value="2">Semi Truck</button>
+          <button class="qa" value="3">Horse</button>
+          <button class="qa" value="4">Zamboni</button>
+        </div>
+        <br>
+        <div id="question10" class="qa">10. Where does Guy buy his shirts from?</div>
+        <div id="answers">
+          <button class="qa" value="1">Cubavara</button>
+          <button class="qa" value="2">Tommy Bahama</button>
+          <button class="qa" value="3">Bonobos</button>
+          <button class="qa" value="4">Reyn Spooner</button>
+        </div>
+
+      </div>
+      <div class="col-2" id="sidebar"></div>
+    </div>
+  </div>
+
+  <script src="/assets/javascript/app.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+  </script>
+</body>
+
+</html>
