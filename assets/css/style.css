@@ -16,6 +16,10 @@ p{
     height: 3em;
 }
 
+.btn{
+    background-color: #ffffff;
+}
+
 
 #content{
     background-color: #efefef;
