@@ -16,6 +16,10 @@ p{
     height: 3em;
 }
 
+/* button:active{
+    background-color: red;
+} */
+
 #content{
     background-color: #efefef;
     padding: 2em;
