@@ -8,7 +8,6 @@ $("document").ready(function () {
 
     //This function sets the question timer
     var n = 120;
-
     function questionTimer() {
         n--;
         if (n > 0) {
