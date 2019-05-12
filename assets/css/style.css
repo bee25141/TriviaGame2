@@ -1,6 +1,5 @@
 body{
     background-image: url("/assets/images/pngkey.com-guy-fieri-png-1518961.png");
-    /* position: absolute; */
 }   
  .jumbotron{
      max-height: 11em;
@@ -12,12 +11,12 @@ p{
 }
 
 .btn{
-    background-color: #ffffff;
+    background-color: #efefef;
 }
 
 
 #content{
-    background-color: #efefef;
+    background-color: #ffffff;
     padding: 2em;
     height: 65em;
     width: 20em;
@@ -28,11 +27,10 @@ p{
 }
  
 .scoreboard{
-    background-color: #efefef;
+    background-color: #ffffff;
     padding: 2em;
-    /* height: 10em; */
-    /* width: 20em; */
     margin: 1em;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;

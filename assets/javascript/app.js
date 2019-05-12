@@ -39,6 +39,7 @@ $("document").ready(function () {
         questionTimer();
     });
 
+    //Resetting the game score and timer
     function reset() {
         answersCorrect = 0;
         answersIncorrect = 0;
@@ -48,7 +49,6 @@ $("document").ready(function () {
         $(".scoreboard").hide();
         console.log(answersCorrect, answersIncorrect);
     };
-
 
 
     //This logs the users answers against the correct answers
@@ -144,7 +144,7 @@ $("document").ready(function () {
         console.log(answersCorrect, answersIncorrect);
     });
 
-    //This ends the game
+    //This ends the game when submit button is clicked
     $("#submit").on("click", function () {
         n = 1;
         window.scrollTo(0, 0);
